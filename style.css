@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Abhaya Libre", serif;
+  margin: 0;
+  background: rgb(163, 251, 103);
+  background: linear-gradient(
+    90deg,
+    rgba(163, 251, 103, 1) 0%,
+    rgba(53, 61, 81, 1) 50%,
+    rgba(174, 182, 93, 1) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-container {
+  background-color: #0d752d;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  padding: 4rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: #4be76b;
+  color: #9e2752;
+  display: block;
+  width: 100%;
+  padding: 1.3rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8f75ab;
+}
