@@ -47,6 +47,9 @@ ul li {
   font-size: 1.2rem;
 }
 
+ul li label {
+  cursor: pointer;
+}
 button {
   background-color: #4be76b;
   color: #9e2752;
