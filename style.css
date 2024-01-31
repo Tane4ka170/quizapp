@@ -35,6 +35,8 @@ body {
 
 h2 {
   margin: 0;
+  text-align: center;
+  padding: 1rem;
 }
 
 ul {
@@ -64,4 +66,8 @@ button {
 
 button:hover {
   background-color: #8f75ab;
+}
+button:focus {
+  background-color: #51d46b;
+  outline: none;
 }
